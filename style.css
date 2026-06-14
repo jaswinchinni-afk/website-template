@@ -1,0 +1,70 @@
+/* ===================================================== */
+/* This is the style file. It controls how your page    */
+/* looks. Change these to change your page's style!     */
+/* ===================================================== */
+
+
+/* This styles the WHOLE PAGE background and font */
+body {
+  background-color: white;
+  color: black;
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  line-height: 1.5;
+}
+
+
+/* This styles the BIG TITLE at the top */
+h1 {
+  color: black;
+  font-size: 48px;
+  border-bottom: 4px solid gold;
+  padding-bottom: 10px;
+}
+
+
+/* This styles the SECTION HEADINGS */
+h2 {
+  color: black;
+  font-size: 28px;
+  margin-top: 30px;
+}
+
+
+/* This styles PARAGRAPHS */
+p {
+  font-size: 18px;
+}
+
+
+/* This styles LISTS */
+ul {
+  font-size: 18px;
+}
+
+
+/* This styles LINKS */
+a {
+  color: blue;
+  font-weight: bold;
+}
+
+
+/* =================================================== */
+/* TRY CHANGING THESE THINGS:                          */
+/*                                                     */
+/* 1. Change background-color in body to lightblue,    */
+/*    pink, lavender, or any color name you like.      */
+/*                                                     */
+/* 2. Change color in h1 to red, purple, or anything.  */
+/*                                                     */
+/* 3. Change font-family in body to:                   */
+/*    "Courier New" for a typewriter look              */
+/*    "Georgia" for a fancy book look                  */
+/*    "Comic Sans MS" for a fun look                   */
+/*                                                     */
+/* 4. Change the gold in h1's border-bottom to any     */
+/*    color you want!                                  */
+/* =================================================== */
