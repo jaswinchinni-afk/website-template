@@ -6,8 +6,8 @@
 
 /* This styles the WHOLE PAGE background and font */
 body {
-  background-color: white;
-  color: black;
+  background-color: #fffacd;
+  color: #333;
   font-family: Arial, sans-serif;
   max-width: 800px;
   margin: 40px auto;
@@ -18,18 +18,21 @@ body {
 
 /* This styles the BIG TITLE at the top */
 h1 {
-  color: black;
+  color: #ff1493;
   font-size: 48px;
-  border-bottom: 4px solid gold;
+  border-bottom: 5px solid #00bfff;
   padding-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 
 /* This styles the SECTION HEADINGS */
 h2 {
-  color: black;
+  color: #ff6347;
   font-size: 28px;
   margin-top: 30px;
+  padding-bottom: 8px;
+  border-bottom: 3px solid #32cd32;
 }
 
 
@@ -47,8 +50,17 @@ ul {
 
 /* This styles LINKS */
 a {
-  color: blue;
+  color: #0066cc;
   font-weight: bold;
+  text-decoration: none;
+  padding: 2px 4px;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  background-color: #ff69b4;
+  color: white;
 }
 
 
@@ -65,6 +77,7 @@ a {
 /*    "Georgia" for a fancy book look                  */
 /*    "Comic Sans MS" for a fun look                   */
 /*                                                     */
-/* 4. Change the gold in h1's border-bottom to any     */
-/*    color you want!                                  */
+/* 4. Change the colors in h1 and h2 borders to any    */
+/*    bright colors you like! Try: hotpink, lime,      */
+/*    tomato, plum, skyblue, coral, orange, purple     */
 /* =================================================== */
